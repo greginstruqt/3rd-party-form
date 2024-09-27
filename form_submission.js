@@ -9,6 +9,7 @@ module.exports = {
         };
         console.log(userdata);
 
+        const trackLink = 'https://play.instruqt.com/embed/instruqt-product/tracks/form-user-details-check?token=em_tjIowp8iOqx64ISQ'; // Embed url
         var labURL = new URL(trackLink);
         
         //Add code below this line

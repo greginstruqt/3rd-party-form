@@ -1,7 +1,7 @@
 {
   "name": "3rd-party-form",
   "version": "1.0.0",
-  "main": "encrypt.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

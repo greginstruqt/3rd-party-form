@@ -1,4 +1,4 @@
-const trackLink = 'https://play.instruqt.com/embed/instruqt/tracks/3rd-party-gating?token=em_a3X2Wt6t5nmAA4ep'; // Invite or embed url
+var encrypt = require('./encrypt');
 
 module.exports = {
     process_form_submission: async function (req, res) {
@@ -10,6 +10,9 @@ module.exports = {
         console.log(userdata);
 
         var labURL = new URL(trackLink);
+        
+        //Add code below this line
+        
 
         console.log("Lab url: " + labURL.toString());
         return labURL.toString();
